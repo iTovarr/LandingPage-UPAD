@@ -67,15 +67,17 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
+              {/* Botón primario — fondo azul sólido + texto negro para máxima legibilidad */}
               <button
                 onClick={scrollToForm}
-                className="rounded-full bg-gradient-to-r from-upad-blue to-upad-light px-8 py-4 text-lg font-extrabold text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 animate-bounce-gentle"
+                className="rounded-full bg-blue-600 px-8 py-4 text-lg font-medium text-black shadow-lg hover:bg-blue-700 hover:shadow-xl hover:scale-105 transition-all duration-300 animate-bounce-gentle"
               >
                 🚀 Únete a la Preventa
               </button>
+              {/* Botón secundario — borde + texto negro */}
               <button
                 onClick={scrollToForm}
-                className="rounded-full border-2 border-upad-blue px-8 py-4 text-lg font-bold text-upad-blue hover:bg-upad-blue hover:text-white transition-all duration-300"
+                className="rounded-full border-2 border-blue-600 bg-white px-8 py-4 text-lg font-medium text-black hover:bg-blue-600 hover:border-blue-600 transition-all duration-300"
               >
                 Saber más
               </button>

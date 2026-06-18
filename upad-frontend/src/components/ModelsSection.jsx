@@ -128,7 +128,7 @@ export default function ModelsSection() {
             </ul>
             <button
               onClick={() => document.getElementById('preventa-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="mt-8 w-full rounded-full bg-gradient-to-r from-upad-blue to-upad-light py-3.5 text-sm font-extrabold text-white shadow hover:shadow-lg hover:scale-105 transition-all duration-300"
+              className="mt-8 w-full rounded-full bg-blue-600 py-3.5 text-sm font-medium text-black shadow hover:bg-blue-700 hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               Reservar {selected.name} →
             </button>

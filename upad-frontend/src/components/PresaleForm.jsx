@@ -79,7 +79,7 @@ export default function PresaleForm() {
     'mt-2 block w-full rounded-xl border-0 py-3 px-4 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-400 focus:ring-2 focus:ring-inset focus:ring-upad-blue sm:text-sm transition-shadow';
   const labelCls = 'block text-sm font-bold leading-6 text-slate-700';
   const btnCls =
-    'w-full rounded-full py-4 text-center text-base font-extrabold text-white shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100';
+    'w-full rounded-full py-4 text-center text-base font-medium text-black shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100';
 
   return (
     <div id="preventa-form" className="bg-upad-bg py-24 sm:py-32">

@@ -63,7 +63,7 @@ export default function Header() {
             ))}
             <button
               onClick={() => handleNav('#preventa-form')}
-              className="ml-3 rounded-full bg-gradient-to-r from-upad-blue to-upad-light px-5 py-2.5 text-sm font-extrabold text-white shadow hover:shadow-md hover:scale-105 transition-all duration-200"
+              className="ml-3 rounded-full bg-blue-600 px-5 py-2.5 text-sm font-medium text-black shadow hover:bg-blue-700 hover:shadow-md hover:scale-105 transition-all duration-200"
             >
               🚀 Preventa
             </button>
@@ -99,7 +99,7 @@ export default function Header() {
             ))}
             <button
               onClick={() => handleNav('#preventa-form')}
-              className="mt-2 rounded-full bg-gradient-to-r from-upad-blue to-upad-light px-5 py-3 text-sm font-extrabold text-white shadow text-center"
+              className="mt-2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-black shadow text-center hover:bg-blue-700 transition-colors"
             >
               🚀 Únete a la Preventa
             </button>
