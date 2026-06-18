@@ -47,7 +47,7 @@ export default function HowItWorks() {
           </span>
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
             ¿Cómo funciona{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-upad-blue to-upad-light">
+            <span className="text-upad-blue">
               U-PAD?
             </span>
           </h2>

@@ -92,7 +92,7 @@ export default function PresaleForm() {
           </span>
           <h2 className="text-3xl font-extrabold text-slate-900">
             ¡Sé de los primeros en tener una{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-upad-blue to-upad-light">
+            <span className="text-upad-blue">
               U-PAD!
             </span>
           </h2>

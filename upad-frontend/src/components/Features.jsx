@@ -45,7 +45,7 @@ export default function Features() {
           </span>
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
             Construida para el{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-upad-pink to-upad-orange">
+            <span className="text-upad-pink">
               aula real
             </span>
           </h2>

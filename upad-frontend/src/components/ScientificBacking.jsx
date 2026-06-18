@@ -19,7 +19,7 @@ export default function ScientificBacking() {
             </span>
             <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
               Anticipación que{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-upad-purple to-upad-blue">
+              <span className="text-upad-purple">
                 reduce la ansiedad
               </span>
             </h2>

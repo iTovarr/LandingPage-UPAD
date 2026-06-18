@@ -170,7 +170,7 @@ export default function MultiStepForm() {
             🎒 Pre-venta + Encuesta
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-4">
-            Reserva tu cartuchera <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-orange-400">U-PAD</span>
+            Reserva tu cartuchera <span className="text-amber-400">U-PAD</span>
           </h2>
           <p className="text-lg text-blue-100/70">
             Completa el formulario y sé de los primeros en recibirla

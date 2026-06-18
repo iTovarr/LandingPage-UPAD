@@ -54,7 +54,7 @@ export default function Hero() {
 
             <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl leading-tight">
               Transforma un celular en el{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-upad-blue to-upad-light">
+              <span className="text-upad-blue">
                 andamiaje cognitivo
               </span>{' '}
               de tu hijo
@@ -79,6 +79,22 @@ export default function Hero() {
               >
                 Saber más
               </button>
+            </div>
+
+            {/* Google Play badge */}
+            <div className="mt-6">
+              <a
+                href="#"
+                className="inline-flex items-center gap-3 bg-slate-900 hover:bg-slate-700 text-white rounded-2xl px-5 py-3 shadow-md transition-colors duration-200"
+              >
+                <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M3.18 23.76A1 1 0 014 24a.87.87 0 00.45-.13l10.12-5.75-2.88-2.89zM.31 1.47A1.1 1.1 0 000 2.26v19.48a1.1 1.1 0 00.31.79l.1.1L11 12.12v-.25L.41 1.37zM20.46 10.4l-2.88-1.63-3.23 3.24 3.23 3.24 2.91-1.65a1.32 1.32 0 000-2.29zM4.45.13L14.57 5.88 11.69 8.76 1 3z"/>
+                </svg>
+                <div className="text-left">
+                  <p className="text-xs text-slate-400 leading-none">Disponible en</p>
+                  <p className="text-sm font-extrabold leading-tight">Google Play Store</p>
+                </div>
+              </a>
             </div>
 
             {/* Social proof mini-stats */}

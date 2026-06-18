@@ -34,7 +34,7 @@ export default function HeroSection() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white leading-[1.1] mb-6 animate-fade-in-up animation-delay-100">
               Transforma un celular en el{' '}
               <span className="relative">
-                <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-orange-400">
+                <span className="relative z-10 text-amber-300">
                   andamiaje cognitivo
                 </span>
               </span>{' '}
